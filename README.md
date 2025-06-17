@@ -91,3 +91,4 @@ You can run the generated Spark SQL manually in the Fabric Lakehouse Notebook to
 - Does not preserve foreign keys, check constraints, or indexes
 - Assumes standard formatting of SQL Server DDL (one table per CREATE TABLE)
 - Inline COMMENT syntax is simulated using -- at the end of the column line
+- ⚠️ Depending on the structure and complexity of the original DDL, the conversion may not always work perfectly. Please review and adjust the output as needed for your specific use case.
